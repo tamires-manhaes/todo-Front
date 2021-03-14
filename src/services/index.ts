@@ -1,4 +1,3 @@
-import { isDOMComponent } from 'react-dom/test-utils';
 import client from '../client/index';
 import { CreateTodo } from '../types';
 
