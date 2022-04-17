@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Routes from './routes';
 import reportWebVitals from './reportWebVitals';
+import { ToDoProvider } from './context/ToDo';
+import { LoadingProvider } from './context/Loading';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Routes />
+    <LoadingProvider>
+      <ToDoProvider>
+        <Routes />
+      </ToDoProvider>
+    </LoadingProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
