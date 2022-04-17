@@ -8,10 +8,11 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
- 
-:root{
+
+:root {
   --font-small: 12px;
   --font-normal: 16px;
   --font-medium: 20px;
@@ -22,6 +23,7 @@ code {
   --green: #28a745;
   --red: #dc3545;
   --gray: #cecfd0;
+  --white: #fff;
 }
 
 #root {
@@ -32,7 +34,8 @@ code {
   overflow: hidden;
 }
 
-li, ul {
+li,
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
